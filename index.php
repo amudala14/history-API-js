@@ -5,14 +5,16 @@
 </head>
 <body>
 
-	<a href="back.php">next</a>
-	<button id="next">Nex</button>
+	<a href="middle-page.php">Middle page</a>
+	<br><br>
+
+	<?php require_once 'includes/navigators.php' ?>
 
 
 	<script type="text/javascript">
-	document.querySelector('#next').addEventListener('click' , function () {
-		window.history.forward()
-	})
+
+	
+
 </script>
 
 </body>
