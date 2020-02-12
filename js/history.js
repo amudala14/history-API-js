@@ -29,4 +29,5 @@
     }
 
 if (history.length > 0) {
-    console.log(history.length);   
+    console.log(history.length);  
+} 
