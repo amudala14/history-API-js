@@ -5,17 +5,14 @@
 </head>
 <body>
 
-	<a href="middle-page.php">Middle page</a>
-	<br><br>
+	<a href="middle-page.php">Next Link</a>
+	<br>
+	<br>
+	<br>
+	<button id="next">Next</button>
+	<button id="refresh">Refresh</button>
 
-	<?php require_once 'includes/navigators.php' ?>
-
-
-	<script type="text/javascript">
-
-	
-
-</script>
+	<script src="js/history.js"></script>
 
 </body>
 </html>

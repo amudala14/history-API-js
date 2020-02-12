@@ -5,11 +5,15 @@
 </head>
 <body>
 
-	<a href="index.php">Home</a>
-	<a href="contact.php">Contact</a>
-	<br><br>
-	
-	<?php require_once 'includes/navigators.php' ?>
+	<a href="index.php">Page 1</a>
+	<a href="contact.php">Page 2</a>
+
+	<br>
+	<br>
+
+	<button id="next">Next</button>
+	<button id="back">Back</button>
+	<button id="refresh">Refresh</button>
 
 	<script src="js/history.js"></script>
 

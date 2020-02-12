@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact</title>
+	<title>Page</title>
 </head>
 <body>
 
-	<?php require_once 'includes/navigators.php' ?>
-	
+	<button id="back">Back</button>
+	<button id="next">Nex</button>
+
 	<script src="js/history.js"></script>
 
 </body>
